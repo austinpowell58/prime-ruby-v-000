@@ -3,7 +3,7 @@ def prime?(numb)
 number = numb.to_i
 prime_flag = true
   if number <= 1
-    return false
+    prime_flag = false
   end 
   
   small_prime = [2, 3, 5, 7, 11]
