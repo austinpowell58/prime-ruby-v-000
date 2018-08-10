@@ -10,6 +10,7 @@ prime_flag = true
   small_prime.each do |primnumber|
     if primnumber == number
       prime_flag = true
+      break
     end 
   end
   x = 2
