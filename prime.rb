@@ -9,7 +9,7 @@ prime_flag = true
   small_prime = [2, 3, 5, 7, 11]
   small_prime.each do |primnumber|
     if primnumber == number
-      return true
+      prime_flag = true
     end 
   end
   x = 2
