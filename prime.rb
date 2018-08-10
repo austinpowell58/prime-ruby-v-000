@@ -17,6 +17,7 @@ prime_flag = true
   while x < number/ 2
   if number % x == 0 
     prime_flag = false
+    break
   else   
     x += 1
   end 
