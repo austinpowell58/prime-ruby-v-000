@@ -4,7 +4,7 @@ def prime?(number)
     return false
   end 
   
-  small_prime = [2, 3, 5, 7, 11 ]
+  small_prime = [2, 3, 5, 7, 11]
   small_prime.each do |primnumber|
     if primnumber == number
       return true
