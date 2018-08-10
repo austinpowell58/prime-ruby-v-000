@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+number = numb.to_i
   if number <= 1
     return false
   end 
