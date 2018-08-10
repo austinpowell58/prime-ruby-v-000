@@ -14,7 +14,8 @@ def prime?(number)
   while x < number/ 2
   if number % x == 0 
     false
+  else 
+    x += 1
   end 
-  x += 1
 end 
 end
