@@ -1,6 +1,7 @@
 # Add  code here!
 def prime?(numb)
 number = numb.to_i
+prime_flag = true
   if number <= 1
     return false
   end 
@@ -14,8 +15,9 @@ number = numb.to_i
   x = 2
   while x < number/ 2
   if number % x == 0 
-    false
+    return false
     x += 1
   end 
 end 
+prime_flag
 end
